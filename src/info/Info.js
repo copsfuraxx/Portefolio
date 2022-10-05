@@ -1,5 +1,7 @@
 import self from "../img/self.jpg"
-import mock1 from "../img/mock1.png"
+import mock1 from "../img/pp.png"
+import mock2 from "../img/geon.png"
+import mock3 from "../img/jump.png"
 
 export let colors = ["#15DB95", "rgb(166,104,255)"];
 
@@ -65,21 +67,22 @@ export const info = {
     ],
     portfolio: [
         {
-            title: "City Tours",
-            source: "https://github.com/codelikeagirl29/city-tours",
+            title: "ParrotProject",
+            live: "https://youtu.be/4kcpkQmy4W8",
+            source: "https://github.com/copsfuraxx/ParrotProject",
             image: mock1
         },
         {
-            title: "City Tours2",
-            live: "https://github.com",
-            source: "https://github.com/codelikeagirl29/city-tours",
-            image: mock1
+            title: "Geon",
+            live: "https://eispri-stic.gitlab.io/tuto-godot-1-flappybird-rendus/Pages/FlappyBird_Jules_Finks.html",
+            source: "https://github.com/copsfuraxx/Project2DClubInfo",
+            image: mock2
         },
         {
-            title: "City Tours3",
-            live: "https://github.com",
-            source: "https://github.com/codelikeagirl29/city-tours",
-            image: mock1
+            title: "MiniJeuxJump",
+            live: "https://julesfinck.alwaysdata.net/jeux.html",
+            source: "https://github.com/copsfuraxx/MiniJeuxJump",
+            image: mock3
         }
     ]
 }
