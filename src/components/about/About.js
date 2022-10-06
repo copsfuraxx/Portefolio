@@ -16,7 +16,7 @@ export default function About() {
 
     function skillsText() {
         return <>
-                <p className={Style.pink}>Mes compétences :</p>
+                <p><span className={Style.pink}>Mes compétences</span> :</p>
             <span style={{color: info.baseColor}}> <u>Compétent avec</u></span>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
@@ -30,7 +30,7 @@ export default function About() {
 
     function miscText() {
         return <>
-            <p className={Style.pink}>Mes passions :</p>
+            <p><span className={Style.pink}>Mes passions</span> :</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'0.7rem'}>{hobby.emoji}</Box>{hobby.label}</li>
