@@ -16,12 +16,12 @@ export default function About() {
 
     function skillsText() {
         return <>
-                <p>Mes compétences </p>
+                <p className={Style.pink}>Mes compétences :</p>
             <span style={{color: info.baseColor}}> <u>Compétent avec</u></span>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <span style={{color: info.baseColor}}> <u>C'est déjà servie</u></span>
+            <span style={{color: info.baseColor}}> <u>S'est déjà servie</u></span>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
@@ -30,7 +30,7 @@ export default function About() {
 
     function miscText() {
         return <>
-            <p>Mes passions </p>
+            <p className={Style.pink}>Mes passions :</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'0.7rem'}>{hobby.emoji}</Box>{hobby.label}</li>
