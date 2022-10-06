@@ -7,7 +7,7 @@ function PortfolioBlock(props) {
    if(live != null){
       return (
          <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-            <Box component={'img'} src={image} alt={'mockup'}/>
+            <Box component={'img'} src={image} alt={'mockup'} sx={{borderRadius: '16px', border: 1}}/>
             <h1 style={{fontSize: '1.5rem'}}>{title}</h1>
             <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'1rem'}
                  alignItems={'center'} fontSize={'1.3rem'} py={'2rem'}>
@@ -23,7 +23,7 @@ function PortfolioBlock(props) {
    }else{
       return (
          <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-            <Box component={'img'} src={image} alt={'mockup'}/>
+            <Box component={'img'} src={image} alt={'mockup'} sx={{borderRadius: '16px', border: 1}}/>
             <h1 style={{fontSize: '1.5rem'}}>{title}</h1>
             <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'1rem'}
                  alignItems={'center'} fontSize={'1.3rem'} py={'2rem'}>

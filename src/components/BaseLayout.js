@@ -31,7 +31,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.2rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>page créé avec &hearts; par Jules inpiré par Lindsey</p>
+                  <p>page créée avec &hearts; par Jules inspiré par Lindsey</p>
                   <p>&copy; 2022</p>
                </Box>
             </Grid>
