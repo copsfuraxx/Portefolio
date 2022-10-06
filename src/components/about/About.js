@@ -10,17 +10,13 @@ export default function About() {
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>A propos de <span
-                className={Style.pink}> {firstName} .... </span></span>
-                 {info.bio}
-            </p>
+            <p>{info.bio}</p>
         </>;
     }
 
     function skillsText() {
         return <>
-                <p>les compétences de <span className={Style.pink}>{firstName} </span>
-                ....</p>
+                <p>Mes compétences </p>
             <span style={{color: info.baseColor}}> <u>Compétent avec</u></span>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
@@ -34,8 +30,7 @@ export default function About() {
 
     function miscText() {
         return <>
-            <p>les passions de <span className={Style.pink}>{firstName} </span>
-                ....</p>
+            <p>Mes passions </p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'0.7rem'}>{hobby.emoji}</Box>{hobby.label}</li>
