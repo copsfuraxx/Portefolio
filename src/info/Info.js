@@ -6,8 +6,8 @@ import mock3 from "../img/jump.png"
 export let colors = ["#15DB95", "rgb(166,104,255)"];
 
 export const info = {
-    firstName: "Jules",
-    lastName: "Finck",
+    firstName: "copsfuraxx",
+    lastName: "",
     initials: "jf",
     position: "Développeur Full Stack",
     selfPortrait: self,
@@ -24,7 +24,7 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "jules.finck@hotmail.fr"
+            text: ""
         }
     ],
     socials: [
@@ -40,7 +40,7 @@ export const info = {
         }
 
     ],
-    bio: "Je suis un étudiant en master informatique à l'USMB.",
+    bio: "",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'mysql', 'nodejs', 'java', 'html/css', 'C#', 'php', 'unity/godot'],
@@ -74,13 +74,13 @@ export const info = {
         },
         {
             title: "Geon",
-            live: "https://eispri-stic.gitlab.io/tuto-godot-1-flappybird-rendus/Pages/FlappyBird_Jules_Finks.html",
+            live: "",
             source: "https://github.com/copsfuraxx/Project2DClubInfo",
             image: mock2
         },
         {
             title: "MiniJeuxJump",
-            live: "https://julesfinck.alwaysdata.net/jeux.html",
+            live: "",
             source: "https://github.com/copsfuraxx/MiniJeuxJump",
             image: mock3
         }
